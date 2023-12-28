@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-EMAIL_ADDRESS = 'davidyuibm@gmail.com'
-EMAIL_PASSWORD = 'hwnu hryt luej yzgk'
+EMAIL_ADDRESS = 'xxxxxx@gmail.com'    # dyu input your gmail id
+EMAIL_PASSWORD = 'yyy yyyy yyy yyyy'  #need to apply a Google API password
 
 ### get stock price
 stock = twstock.Stock("2884")
