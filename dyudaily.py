@@ -6,13 +6,16 @@ from email.mime.text import MIMEText
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-EMAIL_ADDRESS = 'xxxxxx@gmail.com'    # dyu input your gmail id
-EMAIL_PASSWORD = 'yyy yyyy yyy yyyy'  #need to apply a Google API password
+EMAIL_ADDRESS = 'xxxxx@gmail.com'  #dyu 2023/12/28 input your gmail id
+EMAIL_PASSWORD = 'yyyy yyyy yyyy yyyy'  #dyu apply a google api password
+
 
 ### get stock price
 stock = twstock.Stock("2884")
 Esunprice = str(stock.price[-1])
 
+
+#test here
 #IBM price
 tickerSymbol = 'IBM'
 
